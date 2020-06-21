@@ -1,0 +1,44 @@
+#include <conio.h>
+#include <stdio.h>
+#include <string.h>
+#include <cmath>
+
+int main ()
+{
+ 	printf ("Программа %s\n", "Пример");
+
+long  a=0, b = 55, c = 34;
+
+double  x=0, y = -3.14e-17;
+
+ printf ("Введите 'a'"); scanf ("%d", &a);
+
+
+while ( a <= 14 ) {
+
+ printf ("Введите 'b'"); scanf ("%d", &b);
+ printf ("Введите 'c'"); scanf ("%d", &c);
+
+if ( b>c ) {
+b=b^3;
+ printf ("%s", "b=");
+ printf ("%d", 77);
+ printf ("%d", b);
+
+
+} else {
+c=b^2+15;
+ printf ("%s", "c=");
+ printf ("%d", c);
+
+  
+}
+a=a+1;
+}
+
+getch();
+	return 0;
+ }
+
+
+
